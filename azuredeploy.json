@@ -3,9 +3,6 @@
   "contentVersion": "1.0.0.0",
 
   "parameters": {
-    "apimanagement_publisherEmail": {
-      "type": "string"
-    },
     "apiManagementLocation": {
       "type": "string",
       "defaultValue": "westus",
@@ -346,7 +343,7 @@
       "tags": {},
       "scale": null,
       "properties": {
-        "publisherEmail": "[parameters('apimanagement_publisherEmail')]",
+        "publisherEmail": "apimgmt-noreply@mail.windowsazure.com",
         "publisherName": "Microsoft",
         "notificationSenderEmail": "apimgmt-noreply@mail.windowsazure.com",
         "hostnameConfigurations": [],
