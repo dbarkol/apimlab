@@ -376,7 +376,7 @@
                   "Ocp-Apim-Subscription-Key": ""
                 },
                 "method": "PUT",
-                "uri": "[concat('https://', variables('apiManagementServiceName'), '.azure-api.net/api/shipment')]"
+                "uri": "https://shipping-facility.azure-api.net/api/shipment"
               }
             }
           },
